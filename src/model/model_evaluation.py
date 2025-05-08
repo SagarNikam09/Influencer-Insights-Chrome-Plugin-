@@ -13,9 +13,6 @@ import seaborn as sns
 import json
 from mlflow.models import infer_signature
 
-import dagshub
-dagshub.init(repo_owner='rajatchauhan99', repo_name='yt-comment-sentiment-analysis-chrome-plugin', mlflow=True)
-
 
 # logging configuration
 logger = logging.getLogger('model_evaluation')
@@ -131,7 +128,7 @@ def save_model_info(run_id: str, model_path: str, file_path: str) -> None:
 
 
 def main():
-    mlflow.set_tracking_uri("https://dagshub.com/rajatchauhan99/yt-comment-sentiment-analysis-chrome-plugin.mlflow")
+    mlflow.set_tracking_uri("http://ec2-100-26-194-101.compute-1.amazonaws.com:5000/")
 
     mlflow.set_experiment('dvc-pipeline-runs')
     

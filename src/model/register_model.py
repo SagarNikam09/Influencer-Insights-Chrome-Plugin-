@@ -5,11 +5,9 @@ import mlflow
 import logging
 import os
 
-import dagshub
-dagshub.init(repo_owner='rajatchauhan99', repo_name='yt-comment-sentiment-analysis-chrome-plugin', mlflow=True)
 
 # Set up MLflow tracking URI
-mlflow.set_tracking_uri("https://dagshub.com/rajatchauhan99/yt-comment-sentiment-analysis-chrome-plugin.mlflow")
+mlflow.set_tracking_uri("http://ec2-100-26-194-101.compute-1.amazonaws.com:5000/")
 
 
 # logging configuration
