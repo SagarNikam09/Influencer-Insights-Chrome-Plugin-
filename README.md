@@ -3,6 +3,11 @@ Influencer-Insights-Chrome-Plugin-
 
 Chrome plugin to detect youtube comment sentiments
 
+![Chrome-Plugin-1](https://github.com/SagarNikam09/Influencer-Insights-Chrome-Plugin-/blob/master/yt1.png)
+![Chrome-Plugin-2](https://github.com/SagarNikam09/Influencer-Insights-Chrome-Plugin-/blob/master/Screenshot%202025-05-22%20011109.png)
+![Chrome-Plugin-3](https://github.com/SagarNikam09/Influencer-Insights-Chrome-Plugin-/blob/master/yt3.png)
+
+
 Project Organization
 ------------
 
