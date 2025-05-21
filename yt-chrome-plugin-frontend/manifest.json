@@ -10,7 +10,7 @@
     "tabs",
     "activeTab",
     "scripting",
-    "http://localhost/5000",
+    "http://localhost/*",
     "https://www.googleapis.com/*"
   ]
 }
